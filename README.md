@@ -4,7 +4,7 @@ A Python implementation of a server and clients that communicate with eachother 
 # Client-server communication
 The creation of, and connection between the server and clients is realized through the usage of the socket and threading libraries<br/>
 Communication was made to be possible between two clients, with either one initializing it.<br/>
-The clients are presented with a number of commands available to them and must choose one to type as Command-Line Input (like send or exit).<br/>
+The clients are presented with a number of commands available to them and must choose one to type as Command-Line Input (like send or exit).
 If the server is running, then, assuming they choose send, they will then be asked to name a recepient and what message they'd like to transmit.<br/>
 If the recepient exists, they will receive the message. Otherwise, the server will display an error, but keep running.<br/>
 
