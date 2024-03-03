@@ -11,6 +11,7 @@ If the recepient exists, they will receive the message. Otherwise, the server wi
 # Encryption
 - Solitaire algorithm
 - Blum-Blum-Shub algorithm<br/>
+<br/>
 I implemented two different encryption algorithms for this project. The choice of which one to use, and their seeds, can be read from the contents of config files.<br/>
 I also created and encodeStream and decodeStream function, which take an algorithm type, a seed, and a message as inputs, returning the encoded or decoded message as output based on the given parameters.<br/>
 It is also possible to test the algorithms without client-server communication with the last few lines of crypto2.py (the server), below the permanently running while loop that keeps the server running.<br/>
